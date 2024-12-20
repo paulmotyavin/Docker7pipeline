@@ -1,0 +1,64 @@
+﻿<Page x:Class="AviaPlace.SeatClassPage"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      mc:Ignorable="d" 
+      d:DesignHeight="768" d:DesignWidth="1366"
+    Title="SeatClassPage">
+    <Border CornerRadius="0,0,15,0" Background="{StaticResource Background}">
+        <Grid Background="Transparent">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.5*"/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="0.5*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.4*"/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition Height="0.4*"/>
+            </Grid.RowDefinitions>
+            <Border CornerRadius="15" BorderBrush="Gray" Background="{StaticResource Secondary}" BorderThickness="0.3" Grid.Row="0" Grid.Column="1" Grid.RowSpan="16" Grid.ColumnSpan="11">
+                <StackPanel HorizontalAlignment="Right" VerticalAlignment="Top" Orientation="Vertical">
+                    <TextBlock Text="Места и классы" FontSize="39pt" FontFamily="pack://application:,,,/Fonts/#fontick" Foreground="{StaticResource Background}" Margin="7,7,15,0"/>
+                </StackPanel>
+            </Border>
+            <Button Name="AddBtn" Grid.Row="11" Grid.Column="8" Content="{materialDesign:PackIcon Kind=Plus, Size=45}" FontFamily="pack://application:,,,/Fonts/#fontick" Foreground="{StaticResource Background}" FontSize="24pt" Height="50" materialDesign:ButtonAssist.CornerRadius="5" Background="{StaticResource Important}" Click="AddBtn_Click" BorderBrush="{DynamicResource Important}" />
+            <Button Name="EditBtn" Grid.Row="11" Grid.Column="9" Content="{materialDesign:PackIcon Kind=Edit, Size=40}" FontFamily="pack://application:,,,/Fonts/#fontick" Foreground="{StaticResource Background}" FontSize="24pt" Height="50" materialDesign:ButtonAssist.CornerRadius="5" Background="{StaticResource Important}" Click="EditBtn_Click" BorderBrush="{DynamicResource Important}" />
+            <Button Name="DeleteBtn" Grid.Row="11" Grid.Column="10" Content="{materialDesign:PackIcon Kind=Delete, Size=40}" HorizontalContentAlignment="Center" VerticalAlignment="Center" FontFamily="pack://application:,,,/Fonts/#fontick" Foreground="{StaticResource Background}" FontSize="24pt" Height="50" materialDesign:ButtonAssist.CornerRadius="5" Background="{StaticResource Important}" Click="DeleteBtn_Click" BorderBrush="{DynamicResource Important}" />
+            <Border Background="{StaticResource Important}" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="6" Grid.RowSpan="11" CornerRadius="10" Margin="50,0,0,0">
+                <ListBox Name="ItemsList" FontFamily="pack://application:,,,/Fonts/#fontick" FontSize="20pt" ScrollViewer.CanContentScroll="True" ScrollViewer.HorizontalScrollBarVisibility="Visible" Foreground="{StaticResource Grey}" SelectionChanged="ItemsList_SelectionChanged" BorderBrush="White"/>
+            </Border>
+            <TextBox Name="RowsTbx" MaxLength="2" Grid.Row="5" Grid.Column="8" Grid.ColumnSpan="3" TextChanged="RowsPlacesTbx_TextChanged" BorderBrush="{StaticResource Grey}" Margin="0,10,0,10" materialDesign:HintAssist.Hint="Количество рядов" Padding="10,0,0,0" FontSize="20pt" Background="{StaticResource Background}" materialDesign:TextFieldAssist.TextFieldCornerRadius="5" FontFamily="pack://application:,,,/fonts/montserrat/#Montserrat Regular" Foreground="{StaticResource Grey}" CaretBrush="{DynamicResource Grey}" SelectionBrush="{DynamicResource Grey}" PreviewTextInput="RowsTbx_PreviewTextInput"/>
+            <TextBox Name="PlacesTbx" MaxLength="2" Grid.Row="6" Grid.Column="8" Grid.ColumnSpan="3" TextChanged="RowsPlacesTbx_TextChanged" BorderBrush="{StaticResource Grey}" Margin="0,10,0,10" materialDesign:HintAssist.Hint="Количество мест" Padding="10,0,0,0" FontSize="20pt" Background="{StaticResource Background}" materialDesign:TextFieldAssist.TextFieldCornerRadius="5" FontFamily="pack://application:,,,/fonts/montserrat/#Montserrat Regular" Foreground="{StaticResource Grey}" CaretBrush="{DynamicResource Grey}" SelectionBrush="{DynamicResource Grey}" PreviewTextInput="RowsTbx_PreviewTextInput"/>
+            <TextBox Name="PriceTbx" MaxLength="6" Grid.Row="7" Grid.Column="8" Grid.ColumnSpan="3" BorderBrush="{StaticResource Grey}" Margin="0,10,0,10" materialDesign:HintAssist.Hint="Cтоимость" Padding="10,0,0,0" FontSize="20pt" Background="{StaticResource Background}" materialDesign:TextFieldAssist.TextFieldCornerRadius="5" FontFamily="pack://application:,,,/fonts/montserrat/#Montserrat Regular" Foreground="{StaticResource Grey}" CaretBrush="{DynamicResource Grey}" SelectionBrush="{DynamicResource Grey}" PreviewTextInput="RowsTbx_PreviewTextInput"/>
+            <ComboBox Name="ClassCbx" Grid.Row="8" Grid.Column="8" Grid.ColumnSpan="3" Margin="0,10,0,10" BorderBrush="{StaticResource Grey}" materialDesign:HintAssist.Hint="Класс" Padding="10,0,10,0" FontSize="20pt" Background="{StaticResource Background}" materialDesign:TextFieldAssist.TextFieldCornerRadius="5" FontFamily="pack://application:,,,/fonts/montserrat/#Montserrat Regular" Foreground="{StaticResource Grey}" />
+            <ComboBox Name="FlightCbx" Grid.Row="9" Grid.Column="8" Grid.ColumnSpan="3" Margin="0,10,0,10" BorderBrush="{StaticResource Grey}" SelectionChanged="FlightCbx_SelectionChanged"  materialDesign:HintAssist.Hint="Рейс" Padding="10,0,10,0" FontSize="20pt" Background="{StaticResource Background}" materialDesign:TextFieldAssist.TextFieldCornerRadius="5" FontFamily="pack://application:,,,/fonts/montserrat/#Montserrat Regular" Foreground="{StaticResource Grey}" />
+            <TextBlock Name="RowsLeftTbk" Text="Мест: 0 из 0" Grid.Row="4" Grid.Column="8" Grid.ColumnSpan="3" HorizontalAlignment="Center"  FontSize="32pt" FontFamily="pack://application:,,,/Fonts/#fontick" Foreground="{StaticResource Background}" />
+        </Grid>
+    </Border>
+</Page>
+

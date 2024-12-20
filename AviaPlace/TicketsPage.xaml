@@ -1,0 +1,55 @@
+﻿<Page x:Class="AviaPlace.TicketsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      mc:Ignorable="d" 
+      d:DesignHeight="768" d:DesignWidth="1366"
+    Title="TicketsPage">
+    <Border CornerRadius="0,0,15,0" Background="{StaticResource Background}">
+        <Grid Background="Transparent">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.5*"/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="0.5*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.4*"/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition Height="0.4*"/>
+            </Grid.RowDefinitions>
+            <Border CornerRadius="15" BorderBrush="Gray" Background="{StaticResource Secondary}" BorderThickness="0.3" Grid.Row="0" Grid.Column="1" Grid.RowSpan="16" Grid.ColumnSpan="11">
+                <StackPanel HorizontalAlignment="Right" VerticalAlignment="Top" Orientation="Vertical">
+                    <TextBlock Text="Мои билеты" FontSize="39pt" FontFamily="pack://application:,,,/Fonts/#fontick" Foreground="{StaticResource Background}" Margin="7,7,15,0"/>
+                </StackPanel>
+            </Border>
+            <Border Background="{StaticResource Important}" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="10" Grid.RowSpan="11" CornerRadius="10" Margin="50,0,0,0">
+                <ListBox Name="FlightsList"  FontSize="20pt" ScrollViewer.CanContentScroll="True" ScrollViewer.HorizontalScrollBarVisibility="Visible" Foreground="{StaticResource Background}" BorderBrush="White"/>
+            </Border>
+            <Button x:Name="NowTicketsBtn" Grid.Column="4" Content="Текущие" FontSize="24pt" Height="50" Foreground="{StaticResource Background}" Click="TicketsBtn_Click" BorderBrush="Transparent" FontWeight="Bold" FontFamily="pack://application:,,,/fonts/#Fontick" Grid.Row="2" Grid.ColumnSpan="2" />
+            <Button x:Name="ArchiveTicketsBtn" Grid.Column="6" FontWeight="Bold" FontSize="24pt" Height="50" Foreground="{StaticResource Background}" Click="TicketsBtn_Click" Background="{StaticResource LightGrey}" BorderBrush="Transparent" FontFamily="pack://application:,,,/fonts/#Fontick" Content="Архив" Grid.Row="2" Grid.ColumnSpan="2" />
+        </Grid>
+    </Border>
+</Page>

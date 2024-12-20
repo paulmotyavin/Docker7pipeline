@@ -1,0 +1,76 @@
+﻿<Page x:Class="AviaPlace.ProfilePage"
+      xmlns:svgc1="http://sharpvectors.codeplex.com/svgc/"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:AviaPlace"
+      mc:Ignorable="d"         d:DesignHeight="768" d:DesignWidth="1366"
+  Title="ProfilePage">
+    <Border CornerRadius="0,0,15,0" Background="{StaticResource Background}">
+        <Grid Background="Transparent">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.5*"/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="0.5*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.4*"/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition Height="0.4*"/>
+            </Grid.RowDefinitions>
+            <Border CornerRadius="15" BorderBrush="Gray" Background="{StaticResource Secondary}" BorderThickness="0.3" Grid.Row="1" Grid.Column="1" Grid.RowSpan="14" Grid.ColumnSpan="10">
+                <StackPanel HorizontalAlignment="Right" VerticalAlignment="Top" Orientation="Vertical">
+                    <TextBlock Text="Профиль" FontSize="39pt" FontFamily="pack://application:,,,/fonts/#fontick" Foreground="{StaticResource Background}" Margin="7,7,10,0"/>
+                </StackPanel>
+            </Border>
+            <Image x:Name="AvatarImg" Width="250" Height="250" Stretch="Uniform" Source="\imgs/avatar.png" Grid.Column="1" HorizontalAlignment="Center" Grid.RowSpan="5" Grid.Row="3" Grid.ColumnSpan="5"  Margin="40,0,40,0"/>
+            <Button x:Name="DeleteBtn" Grid.Row="8" Margin="0,5,0,0" BorderBrush="{DynamicResource Important}" Background="{StaticResource Important}" Height="65" Grid.Column="4" Width="65" materialDesign:ButtonAssist.CornerRadius="150" VerticalAlignment="Top" HorizontalAlignment="Left" Grid.RowSpan="2" Click="DeleteBtn_Click">
+                <materialDesign:PackIcon Kind="Close" Width="45" Height="45" HorizontalAlignment="Center" Foreground="{StaticResource Background}" VerticalAlignment="Center" />
+                <Button.ToolTip>
+                    <ToolTip Content="Удалить аватарку"/>
+                </Button.ToolTip>
+            </Button>
+            <Button x:Name="AddBtn" Grid.Row="8" Margin="0,5,0,0" BorderBrush="{DynamicResource Important}" Background="{StaticResource Important}" Height="65" Grid.Column="3" Width="65" materialDesign:ButtonAssist.CornerRadius="150" VerticalAlignment="Top" HorizontalAlignment="Center" Grid.RowSpan="2" Click="AddBtn_Click">
+                <materialDesign:PackIcon Kind="Add" Width="45" Height="45" HorizontalAlignment="Center" Foreground="{StaticResource Background}" VerticalAlignment="Center" />
+                <Button.ToolTip>
+                    <ToolTip Content="Добавить аватарку"/>
+                </Button.ToolTip>
+            </Button>
+            <Button Name="ExitBtn" Grid.Row="13" Grid.Column="6" Grid.RowSpan="2" Content="Выйти" Margin="10,0,0,0" FontFamily="pack://application:,,,/fonts/#fontick" Foreground="{StaticResource Background}" FontSize="24pt" Height="50" materialDesign:ButtonAssist.CornerRadius="5" Grid.ColumnSpan="2" Background="{StaticResource Important}" Click="ExitBtn_Click" BorderBrush="{DynamicResource Important}" />
+            <TextBlock Grid.Row="3" Grid.Column="6" Grid.ColumnSpan="4" FontSize="30pt" Margin="10,0,0,0" Text="Фамилия" FontFamily="pack://application:,,,/fonts/#fontick" Foreground="{StaticResource Grey}" />
+            <TextBlock x:Name="SurnameTb" Grid.Row="4" Grid.Column="6" Grid.ColumnSpan="4" FontSize="24pt" Margin="12,0,0,0" FontFamily="pack://application:,,,/fonts/montserrat/#Montserrat Regular" Foreground="{StaticResource Background}" />
+            <TextBlock Grid.Row="5" Grid.Column="6" Grid.ColumnSpan="4" FontSize="30pt" Margin="10,0,0,0" Text="Имя" FontFamily="pack://application:,,,/fonts/#fontick" Foreground="{StaticResource Grey}" />
+            <TextBlock x:Name="NameTb" Grid.Row="6" Grid.Column="6" Grid.ColumnSpan="4" FontSize="24pt" Margin="12,0,0,0" FontFamily="pack://application:,,,/fonts/montserrat/#Montserrat Regular" Foreground="{StaticResource Background}" />
+            
+            <TextBlock Grid.Row="7" Grid.Column="6" Grid.ColumnSpan="4" FontSize="30pt" Margin="10,0,0,0" Text="Эл.почта" FontFamily="pack://application:,,,/fonts/#fontick" Foreground="{StaticResource Grey}" />
+            <TextBlock Name="EmailTb" Grid.Row="8" Grid.Column="6" Grid.ColumnSpan="4" FontSize="24pt" Margin="12,0,0,0" FontFamily="pack://application:,,,/fonts/montserrat/#Montserrat Regular" Foreground="{StaticResource Background}" />
+            <TextBlock Grid.Row="9" Grid.Column="6" Grid.ColumnSpan="4" FontSize="30pt" Margin="10,0,0,0" Text="Роль" FontFamily="pack://application:,,,/fonts/#fontick" Foreground="{StaticResource Grey}" />
+            <TextBlock x:Name="roleTb" Grid.Row="10" Grid.Column="6" Grid.ColumnSpan="4" FontSize="24pt" Margin="12,0,0,0" FontFamily="pack://application:,,,/fonts/montserrat/#Montserrat Regular" Foreground="{StaticResource Background}" />
+            <Button Name="BackupBtn" Grid.Row="11" Grid.Column="3" Grid.ColumnSpan="2" Content="Backup БД" HorizontalContentAlignment="Center" VerticalAlignment="Center" FontFamily="pack://application:,,,/Fonts/#fontick" Foreground="{StaticResource Background}" FontSize="24pt" Height="50" materialDesign:ButtonAssist.CornerRadius="5" Background="{StaticResource Grey}" Click="BackupBtn_Click" BorderBrush="{DynamicResource Grey}" />
+        </Grid>
+    </Border>
+</Page>

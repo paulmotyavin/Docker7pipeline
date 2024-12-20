@@ -1,0 +1,35 @@
+﻿<Page x:Class="AviaPlace.StatisticsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      mc:Ignorable="d" 
+      xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+      d:DesignHeight="768" d:DesignWidth="1366"
+      Title="StatisticsPage">
+
+    <Border CornerRadius="15" Background="{StaticResource Background}" Margin="20">
+        <Grid Background="Transparent">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <TextBlock Text="Продажи по авиакомпаниям"
+                       FontSize="39pt" 
+                       FontFamily="pack://application:,,,/Fonts/#fontick"
+                       Foreground="{StaticResource Grey}"
+                       HorizontalAlignment="Center" 
+                       VerticalAlignment="Center"
+                       Margin="0,20,0,20"/>
+
+            <Border Grid.Row="1" Background="{StaticResource Secondary}" CornerRadius="10" Padding="20" Margin="0,20,0,0">
+                <lvc:CartesianChart Name="AirlineSalesChart" 
+                    HorizontalAlignment="Stretch" 
+                    VerticalAlignment="Stretch" 
+                    Height="650">
+                </lvc:CartesianChart>
+            </Border>
+        </Grid>
+    </Border>
+</Page>

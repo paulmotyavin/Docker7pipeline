@@ -1,0 +1,56 @@
+﻿<Window x:Class="AviaPlace.AuthWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AviaPlace"
+        mc:Ignorable="d"
+        xmlns:svgc1="http://sharpvectors.codeplex.com/svgc/"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Title="AuthWindow" Height="650" Width="600" Background="{x:Null}" AllowsTransparency="True"  ResizeMode="NoResize"  WindowStartupLocation="CenterScreen" WindowStyle="None">
+    <Border CornerRadius="15" BorderBrush="Gray" Background="{StaticResource Background}" BorderThickness="0.3">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <TextBlock Text="АвиаПлейс" FontSize="32pt" Grid.Row="0" Grid.RowSpan="2" Grid.ColumnSpan="11" FontFamily="pack://application:,,,/Fonts/montserrat/#Montserrat Bold" Foreground="{StaticResource Secondary}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <Button x:Name="closeBtn" Click="closeBtn_Click" Grid.Row="0" Grid.Column="9" Foreground="Red" ToolTip="MaterialDesignFlatButton" Style="{StaticResource MaterialDesignFlatButton}" VerticalAlignment="Bottom" Grid.ColumnSpan="2" Margin="54,0,0,33">
+                <svgc1:SvgViewbox Source="\imgs\close_a.svg" Height="27"/>
+            </Button>
+            <Button x:Name="minimizeBtn" Click="minimizeBtn_Click" Grid.Row="0" Grid.Column="8" Style="{StaticResource MaterialDesignFlatButton}" Foreground="{StaticResource Grey}" ToolTip="MaterialDesignFlatButton" VerticalAlignment="Top" Grid.ColumnSpan="2" Margin="54,0,0,0" HorizontalAlignment="Right" Width="55">
+                <svgc1:SvgViewbox Source="\imgs\minus_a.svg" Height="27"/>
+            </Button>
+            <Border Grid.Column="2" Grid.Row="2" Grid.ColumnSpan="7" CornerRadius="25" Grid.RowSpan="6" Background="{StaticResource Secondary}"/>
+            <svgc1:SvgViewbox Source="\imgs\ic_plane.svg" Grid.Row="2" Grid.RowSpan="2" VerticalAlignment="Center" Grid.ColumnSpan="11" Height="45" Margin="0,20,0,0"/>
+            <TextBlock Text="ВХОД В СИСТЕМУ" Grid.Column="2" Grid.ColumnSpan="7" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="22pt" Foreground="{StaticResource Background}" FontFamily="pack://application:,,,/Fonts/#fontick"/>
+            <TextBlock Text="Made by paulscriptum" Foreground="{StaticResource LightGrey}" FontFamily="pack://application:,,,/Fonts/montserrat/#Montserrat Regular" Grid.Row="9" Grid.ColumnSpan="11" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,10" />
+            <svgc1:SvgViewbox Source="\imgs\Intercontinental-transportation.svg" Grid.Row="8" Grid.RowSpan="2" VerticalAlignment="Top" Grid.ColumnSpan="11" Height="100" Margin="0,5,0,0"/>
+            <TextBox x:Name="loginTbx" materialDesign:HintAssist.Hint="Логин" Grid.Row="3" Grid.Column="3" Background="{StaticResource Important}" Foreground="{StaticResource Grey}" Padding="5,0,0,0" materialDesign:TextFieldAssist.TextFieldCornerRadius="5" Grid.ColumnSpan="5" Grid.RowSpan="2" Height="35" VerticalAlignment="Center" FontFamily="pack://application:,,,/Fonts/montserrat/#Montserrat Regular" FontSize="16pt" CaretBrush="{DynamicResource Grey}" SelectionBrush="{DynamicResource Important}" />
+            <PasswordBox x:Name="passwordTbx" materialDesign:HintAssist.Hint="Пароль" Grid.Row="4" Grid.Column="3" Style="{StaticResource MaterialDesignRevealPasswordBox}" Background="{StaticResource Important}" Foreground="{StaticResource Grey}" Padding="5,0,10,0" Height="35" materialDesign:TextFieldAssist.TextFieldCornerRadius="5" FontFamily="pack://application:,,,/Fonts/montserrat/#Montserrat Regular" FontSize="16pt" Grid.ColumnSpan="5" Grid.RowSpan="2" VerticalAlignment="Center" CaretBrush="{DynamicResource Grey}" SelectionBrush="{DynamicResource Important}" BorderBrush="{DynamicResource Important}" />
+            <Button x:Name="enterBtn" Click="enterBtn_Click" Grid.Row="5" Grid.Column="4" Foreground="{StaticResource Background}" Grid.ColumnSpan="3" Content="ВОЙТИ" Height="35" materialDesign:ButtonAssist.CornerRadius="15" Grid.RowSpan="2" FontSize="18pt" Background="{DynamicResource Red}" FontFamily="pack://application:,,,/Fonts/#fontick" BorderBrush="{DynamicResource Red}"/>
+            <TextBlock Name="regBtn" Grid.Row="6" MouseDown="regBtn_Click" VerticalAlignment="Bottom" Grid.Column="3" Grid.ColumnSpan="5" Foreground="{StaticResource Grey}" HorizontalAlignment="Center" FontSize="16pt" Text="Зарегистрироваться"/>
+        </Grid>
+    </Border>
+</Window>

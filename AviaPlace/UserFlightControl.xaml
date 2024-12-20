@@ -1,0 +1,54 @@
+﻿<UserControl x:Class="AviaPlace.UserFlightControl"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d" 
+             d:DesignHeight="150" d:DesignWidth="800" Width="900" Height="150">
+    <Grid>
+        <Border BorderBrush="{StaticResource Background}" BorderThickness="1" CornerRadius="10" Padding="10" Margin="5" Background="{StaticResource Background}">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center" >
+                    <TextBlock Name="departureTime" Text="23:30" HorizontalAlignment="Center" FontWeight="Bold" FontSize="26" Foreground="#FF333333"/>
+                    <TextBlock Text="Время вылета" FontSize="12" Foreground="#FF888888" Margin="0,5,0,0"/>
+                    <TextBlock Name="departureAirport" Text="SVO" HorizontalAlignment="Center" FontSize="14" Foreground="#FF007ACC" Margin="0,5,0,0"/>
+                </StackPanel>
+
+                <StackPanel Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <TextBlock Name="duration" Text="8 ч 50 мин" FontSize="12" FontWeight="Bold" Foreground="#FF555555" Margin="0,0,0,5" HorizontalAlignment="Center"/>
+                    <Line X1="100" Y1="0" X2="0" Y2="0" Stroke="#FFCCCCCC" StrokeThickness="2"/>
+                    <TextBlock Text="В пути" FontSize="12" HorizontalAlignment="Center" Foreground="#FF888888"/>
+                </StackPanel>
+
+                <StackPanel Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <TextBlock Name="arrivalTime" Text="08:20" HorizontalAlignment="Center" FontWeight="Bold" FontSize="26" Foreground="#FF333333"/>
+                    <TextBlock Text="Время прилета" FontSize="12" Foreground="#FF888888" Margin="0,5,0,0"/>
+                    <TextBlock Name="arrivalAirport" Text="KJA" HorizontalAlignment="Center" FontSize="14" Foreground="#FF007ACC" Margin="0,5,0,0"/>
+                </StackPanel>
+
+                <StackPanel Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Center" >
+                    <TextBlock Name="nameTbx" Cursor="Hand" MouseLeftButtonDown="nameTbx_MouseLeftButtonDown" Text="Аэрофлот" FontSize="16" FontWeight="Bold" Foreground="#FF333333"/>
+                    <TextBlock Name="flightTbx" Text="SU 1484" FontSize="14" Foreground="#FF333333" HorizontalAlignment="Center" Margin="0,5,0,0"/>
+                    <TextBlock Name="modelTbx" Text="Boeing 737-800" HorizontalAlignment="Center" FontSize="12" Foreground="#FF007ACC" Margin="0,5,0,0"/>
+                </StackPanel>
+
+
+                <StackPanel Grid.Column="4" VerticalAlignment="Bottom" HorizontalAlignment="Center">
+                    <Image Name="airlineImage" Cursor="Hand" Grid.Column="4" MouseLeftButtonDown="nameTbx_MouseLeftButtonDown" Source="imgs/aeroflot.png" Width="120" Height="50" Stretch="Uniform" VerticalAlignment="Bottom" HorizontalAlignment="Center"/>
+                    <TextBlock Name="priceTbx" Text="от 10 000 ₽" FontSize="16" FontWeight="Bold" Foreground="#FF333333" HorizontalAlignment="Center" Margin="0,0,0,5"/>
+                    <Button IsHitTestVisible="True" Cursor="Hand" materialDesign:ButtonAssist.CornerRadius="15" Content="Подробнее" Width="120" Height="40" Background="#FF007ACC" Foreground="White" Click="BuyBtn_Click" BorderBrush="Transparent" FontSize="14" BorderThickness="1" HorizontalAlignment="Center"/>
+                </StackPanel>
+
+            </Grid>
+        </Border>
+    </Grid>
+</UserControl>

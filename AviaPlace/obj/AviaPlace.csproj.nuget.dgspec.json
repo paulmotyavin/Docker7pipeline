@@ -1,0 +1,51 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace1\\AviaPlace\\AviaPlace.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace1\\AviaPlace\\AviaPlace.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace1\\AviaPlace\\AviaPlace.csproj",
+        "projectName": "AviaPlace",
+        "projectPath": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace1\\AviaPlace\\AviaPlace.csproj",
+        "packagesPath": "C:\\Users\\paulscriptum\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace1\\AviaPlace\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\paulscriptum\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "StyleCop.Analyzers": {
+              "target": "Package",
+              "version": "[1.2.0-beta.556, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}

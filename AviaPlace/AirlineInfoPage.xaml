@@ -1,0 +1,88 @@
+﻿<Page x:Class="AviaPlace.AirlineInfoPage"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:AviaPlace"
+      mc:Ignorable="d" 
+      d:DesignHeight="768" d:DesignWidth="1366"
+      Title="Авиакомпания">
+    <ScrollViewer>
+        <Border CornerRadius="0,0,15,0" Background="{StaticResource Background}">
+            <Grid Background="Transparent">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="0.4*"/>
+                    <RowDefinition Height="0.75*"/>
+                    <RowDefinition Height="0.75*"/>
+                    <RowDefinition/>
+                    <RowDefinition Height="1.375*"/>
+                    <RowDefinition Height="0.6*"/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition Height="0.4*"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.5*"/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <Border Grid.Row="1" Grid.Column="1" Grid.RowSpan="2" Grid.ColumnSpan="6" Background="{StaticResource Secondary}" CornerRadius="10">
+                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Margin="20">
+                        <Image Name="AirlineLogo" Width="250" Height="Auto" Source="imgs/aeroflot.png" Stretch="Uniform" HorizontalAlignment="Center" Margin="0,0,0,10"/>
+
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                            <TextBlock Name="AirlineName" FontSize="32pt" Text="Аэрофлот" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="pack://application:,,,/Fonts/#fontick" Foreground="{StaticResource Background}"/>
+                            <TextBlock FontSize="28pt" Text=" ★" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Gold"/>
+                            <TextBlock Name="AirlineRating" FontSize="32pt" Text="4.6" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="pack://application:,,,/Fonts/#fontick" Foreground="{StaticResource Background}"/>
+                        </StackPanel>
+
+                        <TextBlock Name="AirlineCity" Text="Россия" FontSize="18pt" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="pack://application:,,,/Fonts/#fontick" Foreground="{StaticResource Grey}" Margin="5"/>
+                    </StackPanel>
+                </Border>
+
+                <Button Name="ExitButton" Grid.Row="0" Grid.Column="0" FontSize="24pt" Background="Transparent" Foreground="{StaticResource Important}" BorderBrush="Transparent" BorderThickness="1" Click="ExitButton_Click">
+                    <materialDesign:PackIcon Kind="ArrowLeft" Width="45" Height="45" HorizontalAlignment="Center" Foreground="{StaticResource Grey}" VerticalAlignment="Center" />
+                </Button>
+
+                <TextBlock Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="6" VerticalAlignment="Bottom" HorizontalAlignment="Left" FontSize="30pt" FontFamily="pack://application:,,,/Fonts/#fontick" Foreground="{StaticResource Grey}" Text="Текущие рейсы"/>
+                <Border Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="6" Background="{StaticResource Important}" CornerRadius="10">
+                    <ListBox Name="CurrentFlightsList" FontSize="20pt" Foreground="{StaticResource Background}" SelectionChanged="CurrentFlightsList_SelectionChanged"/>
+                </Border>
+
+                <TextBlock Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="6" VerticalAlignment="Bottom" FontSize="30pt" FontFamily="pack://application:,,,/Fonts/#fontick" Foreground="{StaticResource Grey}"  Text="Напишите отзыв"/>
+                <Border Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="6" Background="{StaticResource Important}" CornerRadius="10">
+                    <StackPanel Margin="20">
+                        <TextBox materialDesign:TextFieldAssist.TextFieldCornerRadius="5" Name="ReviewTextBox" Width="Auto" Height="50" Margin="5" materialDesign:HintAssist.Hint="Напишите свой отзыв..." VerticalScrollBarVisibility="Auto" FontSize="16pt" Foreground="{StaticResource Background}" Background="{StaticResource Secondary}" BorderBrush="{StaticResource Important}" BorderThickness="1"/>
+
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Stretch" VerticalAlignment="Center" Margin="5">
+                            <ComboBox Name="RatingComboBox" Width="150" Padding="0,0,5,0" FontSize="16pt" Margin="10,0,10,0" Foreground="{StaticResource Grey}" Background="{StaticResource Secondary}" BorderBrush="{StaticResource Important}" BorderThickness="1">
+                                <ComboBoxItem>1 ★</ComboBoxItem>
+                                <ComboBoxItem>2 ★★</ComboBoxItem>
+                                <ComboBoxItem>3 ★★★</ComboBoxItem>
+                                <ComboBoxItem>4 ★★★★</ComboBoxItem>
+                                <ComboBoxItem>5 ★★★★★</ComboBoxItem>
+                            </ComboBox>
+
+                            <Button Name="SubmitReviewButton" Content="Отправить" FontSize="22pt" Background="{StaticResource Grey}" FontFamily="pack://application:,,,/Fonts/#fontick" Foreground="{StaticResource Background}" HorizontalAlignment="Center" VerticalAlignment="Center" Width="Auto" Height="50" Margin="10,0,0,0" Click="SubmitReviewButton_Click"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Border>
+
+                <TextBlock Grid.Row="7" Grid.Column="1" Grid.ColumnSpan="6" FontSize="30pt" FontFamily="pack://application:,,,/Fonts/#fontick" Foreground="{StaticResource Grey}" VerticalAlignment="Bottom" Text="Отзывы"/>
+                <Border Grid.Row="8" Grid.Column="1" Grid.ColumnSpan="6" Background="{StaticResource Important}" CornerRadius="10" Margin="20">
+                    <ListBox Name="ReviewsList" FontSize="20pt" Foreground="{StaticResource Background}"/>
+                </Border>
+
+            </Grid>
+        </Border>
+    </ScrollViewer>
+    
+</Page>

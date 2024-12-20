@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "kHAG1t7xMbyrAk6aEME8b80/1kFr8Z4QHkZFYtADGmQarph7VwJ/lT9L08jjReISmoZiVv9nU4q/ATkhNxis6g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace1\\AviaPlace\\AviaPlace.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\paulscriptum\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.556\\stylecop.analyzers.1.2.0-beta.556.nupkg.sha512",
+    "C:\\Users\\paulscriptum\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.556\\stylecop.analyzers.unstable.1.2.0.556.nupkg.sha512"
+  ],
+  "logs": []
+}

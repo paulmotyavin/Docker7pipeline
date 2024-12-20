@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AviaPlace", "AviaPlace\AviaPlace.csproj", "{4B4858B0-BBDA-4D46-80CE-929D7774D895}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Installator", "Installator\Installator.vdproj", "{1B609C22-7C61-46CA-98B6-FC73DC2565BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B4858B0-BBDA-4D46-80CE-929D7774D895}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B4858B0-BBDA-4D46-80CE-929D7774D895}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B4858B0-BBDA-4D46-80CE-929D7774D895}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B4858B0-BBDA-4D46-80CE-929D7774D895}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B609C22-7C61-46CA-98B6-FC73DC2565BC}.Debug|Any CPU.ActiveCfg = Debug
+		{1B609C22-7C61-46CA-98B6-FC73DC2565BC}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2885340-0718-4272-BA64-24AEC45D9239}
+	EndGlobalSection
+EndGlobal

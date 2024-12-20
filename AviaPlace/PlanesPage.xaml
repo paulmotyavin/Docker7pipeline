@@ -1,0 +1,66 @@
+﻿<Page x:Class="AviaPlace.PlanesPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:AviaPlace"
+      mc:Ignorable="d" 
+      d:DesignHeight="768" d:DesignWidth="1366"
+    Title="UsersPage">
+    <Border CornerRadius="0,0,15,0" Background="{StaticResource Background}">
+        <Grid Background="Transparent">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.5*"/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="0.5*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.4*"/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition Height="0.4*"/>
+            </Grid.RowDefinitions>
+            <Border CornerRadius="15" BorderBrush="Gray" Background="{StaticResource Secondary}" BorderThickness="0.3" Grid.Row="0" Grid.Column="1" Grid.RowSpan="16" Grid.ColumnSpan="11">
+                <StackPanel HorizontalAlignment="Right" VerticalAlignment="Top" Orientation="Vertical">
+                    <TextBlock Text="Самолеты" FontSize="39pt" FontFamily="pack://application:,,,/Fonts/#fontick" Foreground="{StaticResource Background}" Margin="7,7,15,0"/>
+                </StackPanel>
+            </Border>
+            <Button Name="AddBtn" Grid.Row="10" Grid.Column="8" Content="{materialDesign:PackIcon Kind=Plus, Size=45}" FontFamily="pack://application:,,,/Fonts/#fontick" Foreground="{StaticResource Background}" FontSize="24pt" Height="50" materialDesign:ButtonAssist.CornerRadius="5" Background="{StaticResource Important}" Click="AddBtn_Click" BorderBrush="{DynamicResource Important}" />
+            <Button Name="EditBtn" Grid.Row="10" Grid.Column="9" Content="{materialDesign:PackIcon Kind=Edit, Size=40}" FontFamily="pack://application:,,,/Fonts/#fontick" Foreground="{StaticResource Background}" FontSize="24pt" Height="50" materialDesign:ButtonAssist.CornerRadius="5" Background="{StaticResource Important}" Click="EditBtn_Click" BorderBrush="{DynamicResource Important}" />
+            <Button Name="DeleteBtn" Grid.Row="10" Grid.Column="10" Content="{materialDesign:PackIcon Kind=Delete, Size=40}" HorizontalContentAlignment="Center" VerticalAlignment="Center" FontFamily="pack://application:,,,/Fonts/#fontick" Foreground="{StaticResource Background}" FontSize="24pt" Height="50" materialDesign:ButtonAssist.CornerRadius="5" Background="{StaticResource Important}" Click="DeleteBtn_Click" BorderBrush="{DynamicResource Important}" />
+            <Border Background="{StaticResource Important}" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="6" Grid.RowSpan="11" CornerRadius="10" Margin="50,0,0,0">
+                <ListBox Name="AircraftList" FontSize="20pt" FontFamily="pack://application:,,,/Fonts/#fontick" ScrollViewer.CanContentScroll="True" ScrollViewer.HorizontalScrollBarVisibility="Visible" Foreground="{StaticResource Background}" SelectionChanged="AircraftList_SelectionChanged" MouseDoubleClick="AircraftList_MouseDoubleClick" BorderBrush="White"/>
+            </Border>
+            <TextBox Name="ModelTbx" Grid.Row="5" Grid.Column="8" Grid.ColumnSpan="3" BorderBrush="{StaticResource Grey}" Margin="0,10,0,10" materialDesign:HintAssist.Hint="Модель" Padding="10,0,0,0" FontSize="20pt" Background="{StaticResource Background}" materialDesign:TextFieldAssist.TextFieldCornerRadius="5" FontFamily="pack://application:,,,/fonts/montserrat/#Montserrat Regular" Foreground="{StaticResource Grey}" CaretBrush="{DynamicResource Grey}" SelectionBrush="{DynamicResource Grey}"/>
+            <TextBox Name="CapacityTbx" Grid.Row="6" Grid.Column="8" Grid.ColumnSpan="3" Margin="0,10,0,10" BorderBrush="{StaticResource Grey}" materialDesign:HintAssist.Hint="Вместимость" Padding="10,0,0,0" FontSize="20pt" Background="{StaticResource Background}" materialDesign:TextFieldAssist.TextFieldCornerRadius="5" FontFamily="pack://application:,,,/fonts/montserrat/#Montserrat Regular" Foreground="{StaticResource Grey}" CaretBrush="{DynamicResource Grey}" SelectionBrush="{DynamicResource Grey}"/>
+            <TextBox Name="ImgTbx" Grid.Row="7" Grid.Column="8" Grid.ColumnSpan="3" Margin="0,10,0,10" BorderBrush="{StaticResource Grey}" materialDesign:HintAssist.Hint="Изображение" IsReadOnly="True" Padding="10,0,0,0" FontSize="20pt" Background="{StaticResource Background}" materialDesign:TextFieldAssist.TextFieldCornerRadius="5" FontFamily="pack://application:,,,/fonts/montserrat/#Montserrat Regular" Foreground="{StaticResource Grey}" CaretBrush="{DynamicResource Grey}" SelectionBrush="{DynamicResource Grey}"/>
+            <Button Name="OpenBtn" Grid.Row="7" Grid.Column="7" Width="75" HorizontalAlignment="Right" Content="{materialDesign:PackIcon Kind=Image, Size=35}" Margin="0,0,10,0" FontFamily="pack://application:,,,/Fonts/#fontick" Foreground="{StaticResource Background}" FontSize="24pt" Height="50" materialDesign:ButtonAssist.CornerRadius="5" Background="{StaticResource Important}" Click="OpenBtn_Click" BorderBrush="{DynamicResource Important}">
+                <Button.ToolTip>
+                    <ToolTip Content="Выбрать изображение"/>
+                </Button.ToolTip>
+            </Button>
+        </Grid>
+    </Border>
+</Page>

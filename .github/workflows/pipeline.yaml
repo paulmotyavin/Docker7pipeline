@@ -1,0 +1,30 @@
+name: Check Style Code
+
+on:
+  push:
+    branches:
+      - pipeline_prakt7
+  pull_request:
+    branches:
+      - pipeline_prakt7
+
+jobs:
+  checkstyle:
+    runs-on: windows-latest
+    steps:
+      - name: Download code
+        uses: actions/checkout@v2
+
+      - name: Set up .NET
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: '8.0.202'
+
+      - name: Install dependencies
+        run: |
+          dotnet restore
+
+      - name: Install and check XAML code style
+        run: |
+          dotnet tool install -g dotnet-format
+          dotnet-format -f AviaPlace --check 

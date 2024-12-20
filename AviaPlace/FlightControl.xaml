@@ -1,0 +1,48 @@
+﻿<UserControl x:Class="AviaPlace.FlightControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:AviaPlace"
+             mc:Ignorable="d" 
+             d:DesignHeight="150" d:DesignWidth="800" Width="555" Height="150">
+    <Grid>
+        <Border BorderBrush="{StaticResource Background}" BorderThickness="1" CornerRadius="10" Padding="10" Margin="5" Background="{StaticResource Background}">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <TextBlock Name="DepartureTime" Text="23:30" HorizontalAlignment="Center" FontWeight="Bold" FontSize="26" Foreground="#FF333333"/>
+                    <TextBlock Text="Время вылета" FontSize="12" Foreground="#FF888888" Margin="0,5,0,0"/>
+                    <TextBlock Name="DepartureAirport" Text="SVO" HorizontalAlignment="Center" FontSize="14" Foreground="#FF007ACC" Margin="0,5,0,0"/>
+                </StackPanel>
+
+                <StackPanel Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <TextBlock Name="Duration" Text="8 ч 50 мин" FontSize="12" FontWeight="Bold" Foreground="#FF555555" Margin="0,0,0,5" HorizontalAlignment="Center"/>
+                    <Line X1="100" Y1="0" X2="0" Y2="0" Stroke="#FFCCCCCC" StrokeThickness="2"/>
+                    <TextBlock Text="В пути" FontSize="12" HorizontalAlignment="Center" Foreground="#FF888888"/>
+                </StackPanel>
+
+                <StackPanel Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <TextBlock Name="ArrivalTime" Text="08:20" HorizontalAlignment="Center" FontWeight="Bold" FontSize="26" Foreground="#FF333333"/>
+                    <TextBlock Text="Время прилета" FontSize="12" Foreground="#FF888888" Margin="0,5,0,0"/>
+                    <TextBlock Name="ArrivalAirport" Text="KJA" HorizontalAlignment="Center" FontSize="14" Foreground="#FF007ACC" Margin="0,5,0,0"/>
+                </StackPanel>
+
+                <StackPanel Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <TextBlock Name="Name" Text="Аэрофлот" FontSize="16" FontWeight="Bold" Foreground="#FF333333"/>
+                    <TextBlock Name="Flight" Text="SU 1484" FontSize="14" Foreground="#FF333333" HorizontalAlignment="Center" Margin="0,5,0,0"/>
+                    <TextBlock Name="ModelTbx" Text="Boeing 737-800" HorizontalAlignment="Center" FontSize="12" Foreground="#FF007ACC" Margin="0,5,0,0"/>
+                </StackPanel>
+
+                <Image Name="AirlineImage" Grid.Column="4" Source="imgs/aeroflot.png" Width="74" Height="50" Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10"/>
+            </Grid>
+        </Border>
+    </Grid>
+</UserControl>

@@ -1,0 +1,1037 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\airportspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\airportspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\airlineinfopage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\airlineinfopage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\flightspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\flightspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\planespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\planespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\regwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\regwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|c:\\users\\paulscriptum\\source\\repos\\aviaplace\\aviaplace\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\aviaplacedataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\aviaplacedataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\statisticspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\statisticspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\airportmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\airportmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\userflightspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\userflightspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\paulscriptum\\AppData\\Local\\Temp\\.vsdbgsrc\\0d21d1bb3d6c8eeb7167780d996f266925fec63c3123c26080f8646673ca2d3d\\FlightsPage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\resources\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\resources\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\userspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\userspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\userflightcontrol.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\userflightcontrol.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\ticketspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\ticketspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\ticketcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\ticketcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\seatspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\seatspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\seatclasspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\seatclasspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\seatclasscontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\seatclasscontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\reviewspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\reviewspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\reviewcontrol.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\reviewcontrol.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\loggingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\loggingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\flightdetailspage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\flightdetailspage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\flightcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\flightcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\clientwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\clientwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\authwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\authwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\airportspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\airportspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\airlinespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\airlinespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\airlinescontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\airlinescontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\aircraftcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\aircraftcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\userspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\userspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\userflightspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\userflightspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\userflightcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\userflightcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\ticketspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\ticketspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\ticketcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\ticketcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\statisticspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\statisticspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\seatspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\seatspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\seatclasspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\seatclasspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\seatclasscontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\seatclasscontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\reviewspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\reviewspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\reviewcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\reviewcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\regwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\regwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\planespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\planespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\loggingpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\loggingpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\flightspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\flightspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\flightdetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\flightdetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\flightcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\flightcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\clientwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\clientwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\authwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\authwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\airlinespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\airlinespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\airlinescontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\airlinescontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\airlineinfopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\airlineinfopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\aircraftcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\aircraftcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\classdiagram.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\classdiagram.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\classdiagram - \u043A\u043E\u043F\u0438\u0440\u043E\u0432\u0430\u0442\u044C.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\classdiagram - \u043A\u043E\u043F\u0438\u0440\u043E\u0432\u0430\u0442\u044C.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\imgs\\journal.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\imgs\\journal.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\imgs\\planes.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\imgs\\planes.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\aviaplace\\imgs\\seats.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{4B4858B0-BBDA-4D46-80CE-929D7774D895}|AviaPlace\\AviaPlace.csproj|solutionrelative:aviaplace\\imgs\\seats.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 400,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlanesPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\PlanesPage.xaml.cs",
+              "RelativeDocumentMoniker": "AviaPlace\\PlanesPage.xaml.cs",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\PlanesPage.xaml.cs",
+              "RelativeToolTip": "AviaPlace\\PlanesPage.xaml.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAgwGgAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T20:23:34.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FlightsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\FlightsPage.xaml.cs",
+              "RelativeDocumentMoniker": "AviaPlace\\FlightsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\FlightsPage.xaml.cs",
+              "RelativeToolTip": "AviaPlace\\FlightsPage.xaml.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAQwKYAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T19:51:46.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AirlineInfoPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\AirlineInfoPage.xaml.cs",
+              "RelativeDocumentMoniker": "AviaPlace\\AirlineInfoPage.xaml.cs",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\AirlineInfoPage.xaml.cs",
+              "RelativeToolTip": "AviaPlace\\AirlineInfoPage.xaml.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAvwIwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T14:36:15.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AirportsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\AirportsPage.xaml.cs",
+              "RelativeDocumentMoniker": "AviaPlace\\AirportsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\AirportsPage.xaml.cs",
+              "RelativeToolTip": "AviaPlace\\AirportsPage.xaml.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAYwJkAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T10:32:22.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\RegWindow.xaml.cs",
+              "RelativeDocumentMoniker": "AviaPlace\\RegWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\RegWindow.xaml.cs",
+              "RelativeToolTip": "AviaPlace\\RegWindow.xaml.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwCwAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T10:35:52.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\UserModel.cs",
+              "RelativeDocumentMoniker": "AviaPlace\\UserModel.cs",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\UserModel.cs",
+              "RelativeToolTip": "AviaPlace\\UserModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T10:37:55.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AirportModel.cs",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\AirportModel.cs",
+              "RelativeDocumentMoniker": "AviaPlace\\AirportModel.cs",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\AirportModel.cs",
+              "RelativeToolTip": "AviaPlace\\AirportModel.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA1wC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T10:32:08.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FlightsPage.cs",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\AppData\\Local\\Temp\\.vsdbgsrc\\0d21d1bb3d6c8eeb7167780d996f266925fec63c3123c26080f8646673ca2d3d\\FlightsPage.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\0d21d1bb3d6c8eeb7167780d996f266925fec63c3123c26080f8646673ca2d3d\\FlightsPage.cs",
+              "ToolTip": "C:\\Users\\paulscriptum\\AppData\\Local\\Temp\\.vsdbgsrc\\0d21d1bb3d6c8eeb7167780d996f266925fec63c3123c26080f8646673ca2d3d\\FlightsPage.cs",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\0d21d1bb3d6c8eeb7167780d996f266925fec63c3123c26080f8646673ca2d3d\\FlightsPage.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T21:59:17.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AviaPlaceDataSet.xsd",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\AviaPlaceDataSet.xsd",
+              "RelativeDocumentMoniker": "AviaPlace\\AviaPlaceDataSet.xsd",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\AviaPlaceDataSet.xsd",
+              "RelativeToolTip": "AviaPlace\\AviaPlaceDataSet.xsd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2024-11-06T20:17:47.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StatisticsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\StatisticsPage.xaml.cs",
+              "RelativeDocumentMoniker": "AviaPlace\\StatisticsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\StatisticsPage.xaml.cs",
+              "RelativeToolTip": "AviaPlace\\StatisticsPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T06:13:00.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TicketsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\TicketsPage.xaml.cs",
+              "RelativeDocumentMoniker": "AviaPlace\\TicketsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\TicketsPage.xaml.cs",
+              "RelativeToolTip": "AviaPlace\\TicketsPage.xaml.cs",
+              "ViewState": "AQIAAHAAAAAAAAAAAAAswIsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T11:47:28.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserFlightsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\UserFlightsPage.xaml.cs",
+              "RelativeDocumentMoniker": "AviaPlace\\UserFlightsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\UserFlightsPage.xaml.cs",
+              "RelativeToolTip": "AviaPlace\\UserFlightsPage.xaml.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAuwCMAAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T06:06:14.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Colors.xaml",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\Resources\\Colors.xaml",
+              "RelativeDocumentMoniker": "AviaPlace\\Resources\\Colors.xaml",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\Resources\\Colors.xaml",
+              "RelativeToolTip": "AviaPlace\\Resources\\Colors.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-04T10:24:21.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UsersPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\UsersPage.xaml.cs",
+              "RelativeDocumentMoniker": "AviaPlace\\UsersPage.xaml.cs",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\UsersPage.xaml.cs",
+              "RelativeToolTip": "AviaPlace\\UsersPage.xaml.cs",
+              "ViewState": "AQIAAIgAAAAAAAAAAAAowJkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T08:24:32.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TicketControl.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\TicketControl.xaml.cs",
+              "RelativeDocumentMoniker": "AviaPlace\\TicketControl.xaml.cs",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\TicketControl.xaml.cs",
+              "RelativeToolTip": "AviaPlace\\TicketControl.xaml.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA2wEEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T12:20:32.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserFlightControl.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\UserFlightControl.xaml.cs",
+              "RelativeDocumentMoniker": "AviaPlace\\UserFlightControl.xaml.cs",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\UserFlightControl.xaml.cs",
+              "RelativeToolTip": "AviaPlace\\UserFlightControl.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T10:48:10.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SeatsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\SeatsPage.xaml.cs",
+              "RelativeDocumentMoniker": "AviaPlace\\SeatsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\SeatsPage.xaml.cs",
+              "RelativeToolTip": "AviaPlace\\SeatsPage.xaml.cs",
+              "ViewState": "AQIAAHwAAAAAAAAAAAAowIYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T10:44:30.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SeatClassPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\SeatClassPage.xaml.cs",
+              "RelativeDocumentMoniker": "AviaPlace\\SeatClassPage.xaml.cs",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\SeatClassPage.xaml.cs",
+              "RelativeToolTip": "AviaPlace\\SeatClassPage.xaml.cs",
+              "ViewState": "AQIAAL0AAAAAAAAAAAAswJkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:43:55.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SeatClassControl.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\SeatClassControl.xaml.cs",
+              "RelativeDocumentMoniker": "AviaPlace\\SeatClassControl.xaml.cs",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\SeatClassControl.xaml.cs",
+              "RelativeToolTip": "AviaPlace\\SeatClassControl.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T10:36:19.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ReviewsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\ReviewsPage.xaml.cs",
+              "RelativeDocumentMoniker": "AviaPlace\\ReviewsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\ReviewsPage.xaml.cs",
+              "RelativeToolTip": "AviaPlace\\ReviewsPage.xaml.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwDAAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T20:58:38.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ReviewControl.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\ReviewControl.xaml.cs",
+              "RelativeDocumentMoniker": "AviaPlace\\ReviewControl.xaml.cs",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\ReviewControl.xaml.cs",
+              "RelativeToolTip": "AviaPlace\\ReviewControl.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T16:33:40.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ProfilePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\ProfilePage.xaml.cs",
+              "RelativeDocumentMoniker": "AviaPlace\\ProfilePage.xaml.cs",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\ProfilePage.xaml.cs",
+              "RelativeToolTip": "AviaPlace\\ProfilePage.xaml.cs",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAwwHcAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T10:35:34.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LoggingPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\LoggingPage.xaml.cs",
+              "RelativeDocumentMoniker": "AviaPlace\\LoggingPage.xaml.cs",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\LoggingPage.xaml.cs",
+              "RelativeToolTip": "AviaPlace\\LoggingPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T21:35:59.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "FlightDetailsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\FlightDetailsPage.xaml.cs",
+              "RelativeDocumentMoniker": "AviaPlace\\FlightDetailsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\FlightDetailsPage.xaml.cs",
+              "RelativeToolTip": "AviaPlace\\FlightDetailsPage.xaml.cs",
+              "ViewState": "AQIAAK8AAAAAAAAAAAAgwMoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T11:12:57.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "FlightControl.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\FlightControl.xaml.cs",
+              "RelativeDocumentMoniker": "AviaPlace\\FlightControl.xaml.cs",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\FlightControl.xaml.cs",
+              "RelativeToolTip": "AviaPlace\\FlightControl.xaml.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAcwDkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T10:33:12.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ClientWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\ClientWindow.xaml.cs",
+              "RelativeDocumentMoniker": "AviaPlace\\ClientWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\ClientWindow.xaml.cs",
+              "RelativeToolTip": "AviaPlace\\ClientWindow.xaml.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAwFIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T11:01:59.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AuthWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\AuthWindow.xaml.cs",
+              "RelativeDocumentMoniker": "AviaPlace\\AuthWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\AuthWindow.xaml.cs",
+              "RelativeToolTip": "AviaPlace\\AuthWindow.xaml.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAswFMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T10:55:40.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AirportsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\AirportsPage.xaml",
+              "RelativeDocumentMoniker": "AviaPlace\\AirportsPage.xaml",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\AirportsPage.xaml",
+              "RelativeToolTip": "AviaPlace\\AirportsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-16T10:32:17.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AirlinesPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\AirlinesPage.xaml.cs",
+              "RelativeDocumentMoniker": "AviaPlace\\AirlinesPage.xaml.cs",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\AirlinesPage.xaml.cs",
+              "RelativeToolTip": "AviaPlace\\AirlinesPage.xaml.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAkwGoAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T10:31:58.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AirlinesControl.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\AirlinesControl.xaml.cs",
+              "RelativeDocumentMoniker": "AviaPlace\\AirlinesControl.xaml.cs",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\AirlinesControl.xaml.cs",
+              "RelativeToolTip": "AviaPlace\\AirlinesControl.xaml.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA1wB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T10:31:50.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AircraftControl.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\AircraftControl.xaml.cs",
+              "RelativeDocumentMoniker": "AviaPlace\\AircraftControl.xaml.cs",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\AircraftControl.xaml.cs",
+              "RelativeToolTip": "AviaPlace\\AircraftControl.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T10:30:54.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "UserFlightControl.xaml",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\UserFlightControl.xaml",
+              "RelativeDocumentMoniker": "AviaPlace\\UserFlightControl.xaml",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\UserFlightControl.xaml",
+              "RelativeToolTip": "AviaPlace\\UserFlightControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-08T09:17:31.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "LoggingPage.xaml",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\LoggingPage.xaml",
+              "RelativeDocumentMoniker": "AviaPlace\\LoggingPage.xaml",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\LoggingPage.xaml",
+              "RelativeToolTip": "AviaPlace\\LoggingPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-16T10:52:27.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "FlightsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\FlightsPage.xaml",
+              "RelativeDocumentMoniker": "AviaPlace\\FlightsPage.xaml",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\FlightsPage.xaml",
+              "RelativeToolTip": "AviaPlace\\FlightsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-10T21:49:00.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AdminWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\AdminWindow.xaml.cs",
+              "RelativeDocumentMoniker": "AviaPlace\\AdminWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\AdminWindow.xaml.cs",
+              "RelativeToolTip": "AviaPlace\\AdminWindow.xaml.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAUwFAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T14:09:22.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "AirlinesControl.xaml",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\AirlinesControl.xaml",
+              "RelativeDocumentMoniker": "AviaPlace\\AirlinesControl.xaml",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\AirlinesControl.xaml",
+              "RelativeToolTip": "AviaPlace\\AirlinesControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-16T10:31:41.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "UsersPage.xaml",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\UsersPage.xaml",
+              "RelativeDocumentMoniker": "AviaPlace\\UsersPage.xaml",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\UsersPage.xaml",
+              "RelativeToolTip": "AviaPlace\\UsersPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-16T10:38:00.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "ClassDiagram.cd",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\ClassDiagram.cd",
+              "RelativeDocumentMoniker": "AviaPlace\\ClassDiagram.cd",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\ClassDiagram.cd",
+              "RelativeToolTip": "AviaPlace\\ClassDiagram.cd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
+              "WhenOpened": "2024-11-20T09:10:32.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "AdminWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\AdminWindow.xaml",
+              "RelativeDocumentMoniker": "AviaPlace\\AdminWindow.xaml",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\AdminWindow.xaml",
+              "RelativeToolTip": "AviaPlace\\AdminWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-04T10:24:53.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "UserFlightsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\UserFlightsPage.xaml",
+              "RelativeDocumentMoniker": "AviaPlace\\UserFlightsPage.xaml",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\UserFlightsPage.xaml",
+              "RelativeToolTip": "AviaPlace\\UserFlightsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-10T20:07:08.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "TicketsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\TicketsPage.xaml",
+              "RelativeDocumentMoniker": "AviaPlace\\TicketsPage.xaml",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\TicketsPage.xaml",
+              "RelativeToolTip": "AviaPlace\\TicketsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-16T10:50:10.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "FlightDetailsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\FlightDetailsPage.xaml",
+              "RelativeDocumentMoniker": "AviaPlace\\FlightDetailsPage.xaml",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\FlightDetailsPage.xaml",
+              "RelativeToolTip": "AviaPlace\\FlightDetailsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-16T21:00:49.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "TicketControl.xaml",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\TicketControl.xaml",
+              "RelativeDocumentMoniker": "AviaPlace\\TicketControl.xaml",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\TicketControl.xaml",
+              "RelativeToolTip": "AviaPlace\\TicketControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-16T12:07:49.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "StatisticsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\StatisticsPage.xaml",
+              "RelativeDocumentMoniker": "AviaPlace\\StatisticsPage.xaml",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\StatisticsPage.xaml",
+              "RelativeToolTip": "AviaPlace\\StatisticsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-14T14:02:36.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "RegWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\RegWindow.xaml",
+              "RelativeDocumentMoniker": "AviaPlace\\RegWindow.xaml",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\RegWindow.xaml",
+              "RelativeToolTip": "AviaPlace\\RegWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-16T10:35:47.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "AuthWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\AuthWindow.xaml",
+              "RelativeDocumentMoniker": "AviaPlace\\AuthWindow.xaml",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\AuthWindow.xaml",
+              "RelativeToolTip": "AviaPlace\\AuthWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-16T10:32:41.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\App.xaml",
+              "RelativeDocumentMoniker": "AviaPlace\\App.xaml",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\App.xaml",
+              "RelativeToolTip": "AviaPlace\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-16T10:32:33.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "SeatsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\SeatsPage.xaml",
+              "RelativeDocumentMoniker": "AviaPlace\\SeatsPage.xaml",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\SeatsPage.xaml",
+              "RelativeToolTip": "AviaPlace\\SeatsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-10T10:43:25.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "SeatClassControl.xaml",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\SeatClassControl.xaml",
+              "RelativeDocumentMoniker": "AviaPlace\\SeatClassControl.xaml",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\SeatClassControl.xaml",
+              "RelativeToolTip": "AviaPlace\\SeatClassControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-16T10:36:16.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ReviewControl.xaml",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\ReviewControl.xaml",
+              "RelativeDocumentMoniker": "AviaPlace\\ReviewControl.xaml",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\ReviewControl.xaml",
+              "RelativeToolTip": "AviaPlace\\ReviewControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-14T16:28:49.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "SeatClassPage.xaml",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\SeatClassPage.xaml",
+              "RelativeDocumentMoniker": "AviaPlace\\SeatClassPage.xaml",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\SeatClassPage.xaml",
+              "RelativeToolTip": "AviaPlace\\SeatClassPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-13T19:39:53.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ProfilePage.xaml",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\ProfilePage.xaml",
+              "RelativeDocumentMoniker": "AviaPlace\\ProfilePage.xaml",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\ProfilePage.xaml",
+              "RelativeToolTip": "AviaPlace\\ProfilePage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-08T09:26:44.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ReviewsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\ReviewsPage.xaml",
+              "RelativeDocumentMoniker": "AviaPlace\\ReviewsPage.xaml",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\ReviewsPage.xaml",
+              "RelativeToolTip": "AviaPlace\\ReviewsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-16T20:58:48.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "PlanesPage.xaml",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\PlanesPage.xaml",
+              "RelativeDocumentMoniker": "AviaPlace\\PlanesPage.xaml",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\PlanesPage.xaml",
+              "RelativeToolTip": "AviaPlace\\PlanesPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-06T19:28:29.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "seats.svg",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\imgs\\seats.svg",
+              "RelativeDocumentMoniker": "AviaPlace\\imgs\\seats.svg",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\imgs\\seats.svg",
+              "RelativeToolTip": "AviaPlace\\imgs\\seats.svg",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAASAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAP8SURBVDhPrZRdbJNVGMd/p33b9Qtqt9HZbe2woKxsbGDYpk5DQAkTFcQPjJgY44XGEI3GmBBMNNmVNxoWojei8VITgyzGCwgRyRjJZM5JlvERt0C3dVu3rt3bD7r3bc/xYt0o4CX/5Mn5/uc85/zOgfsppZS4u6\u002Bnp\u002BdYc3PzB6VxlFIrcwGQUpLP58lms71Hjhw5PDExEbvT4S719PSMSillsVj83ygUCnJ4eFgODg7K48eP/xyJRDaVr7eWNwC6uroOd3R0VEsFBSOFzF1GZL7DmP0Rc/o3AP6dNNne1oHT6Qzb7fb6qampy4lEInGPob39NdHY2n74aq6i\u002BvpUP2sL3\u002BCc/ZZC7AyITUgVpBC/yMQcNDzSjs/n01wu18bKysrglStXLqTT6fSyoRC4H93nCz33zudrAqFn2iI2\u002B66aY3hnTjM8vpVf9A8ZqzjElta9yLlRMqabC0M3GBoaQtd1q8/ni5w/f/6nVCoV0wAczXu8Dfvf/\u002BTp7fXvvrxlzLVdfkriWo7\u002B7FGuh19kwnBycWyGrHmDV/xNNLZuoB4/hmHg8XgYGRlZzdIC4O96r7Mjsu6Ng00Da9tyH4vF4TxTopvcugPYsuA2C4TW13Jprkhf8iHEmhDV1VUEAgG8Xi9Wq3WVAgtAQ8Bz4IXG0aoW8ysxP2jiavmBLY8d4OC2AK\u002B3VJOZnsNnr0C4nQwmbMznLaX9KChDC0AD2Lwu9dTj3u\u002BdmXEHX5ufMfmHDbPwD1IpFJJ8UaNKs2Cz2xifWyKZNqhd60ApQNxmFECrDWj2t1pO19uiY\u002BKc5QvlbtstwsrC8mxKpgrzloFhmCwVChSUKg0r1F0PQJu8GtqfHP\u002B1YiDzthoN7in\u002BefGadWuNSygpUUohlQIUQirqkLQGPfg99pLZna8IQFN67NXZm3VL54o7MbNKczttls5wtdhW58br0NDzJgM3kkSTOVCKoM\u002BFx6GtJLB8jmXS8pP5zmS24vf\u002BGW1zSEs11ITrxJnpHGeuz6IME82uUfRUkSy6WIgv8KxFYLPc/gJWUl6RpbAonHuPLh2Kzcx/eW10PHFzOq0M9xoIrUdsfJilugbiShCPJwg7CjzfXIPdunLL98p69E38Ox5Mhi/1X\u002B1rCNjMTMps1DPSPRlfJDGf4lZiAVt6kaYHND7auYFKtx2EWEVGCEE0GuXUqVMndF2PWdfXMhCbYVfEPrujLt43Eqhvde1\u002B4slGv63IJq9Ge62bfU1\u002BXtpai8OmLW\u002BjhAuAsFiIRifo7e09oev6vV9Zd3d3n5RSmqZZCkOaxnIYq7G0WpqmKc\u002BePSuDwWAbK2CXSyn118mTJztL9WV0SgiV95Wzp\u002Bv638DCnU73Sf8B3E0j/55GTsEAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-11-14T14:23:11.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "AirlineInfoPage.xaml",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\AirlineInfoPage.xaml",
+              "RelativeDocumentMoniker": "AviaPlace\\AirlineInfoPage.xaml",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\AirlineInfoPage.xaml",
+              "RelativeToolTip": "AviaPlace\\AirlineInfoPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-14T14:35:47.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "FlightControl.xaml",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\FlightControl.xaml",
+              "RelativeDocumentMoniker": "AviaPlace\\FlightControl.xaml",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\FlightControl.xaml",
+              "RelativeToolTip": "AviaPlace\\FlightControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-14T15:29:10.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\App.xaml.cs",
+              "RelativeDocumentMoniker": "AviaPlace\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\App.xaml.cs",
+              "RelativeToolTip": "AviaPlace\\App.xaml.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAswCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T10:32:34.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ClientWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\ClientWindow.xaml",
+              "RelativeDocumentMoniker": "AviaPlace\\ClientWindow.xaml",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\ClientWindow.xaml",
+              "RelativeToolTip": "AviaPlace\\ClientWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-08T10:02:50.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "AircraftControl.xaml",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\AircraftControl.xaml",
+              "RelativeDocumentMoniker": "AviaPlace\\AircraftControl.xaml",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\AircraftControl.xaml",
+              "RelativeToolTip": "AviaPlace\\AircraftControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-16T10:30:43.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "AirlinesPage.xaml",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\AirlinesPage.xaml",
+              "RelativeDocumentMoniker": "AviaPlace\\AirlinesPage.xaml",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\AirlinesPage.xaml",
+              "RelativeToolTip": "AviaPlace\\AirlinesPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-08T11:58:58.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "ClassDiagram - \u041A\u043E\u043F\u0438\u0440\u043E\u0432\u0430\u0442\u044C.cd",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\ClassDiagram - \u041A\u043E\u043F\u0438\u0440\u043E\u0432\u0430\u0442\u044C.cd",
+              "RelativeDocumentMoniker": "AviaPlace\\ClassDiagram - \u041A\u043E\u043F\u0438\u0440\u043E\u0432\u0430\u0442\u044C.cd",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\ClassDiagram - \u041A\u043E\u043F\u0438\u0440\u043E\u0432\u0430\u0442\u044C.cd",
+              "RelativeToolTip": "AviaPlace\\ClassDiagram - \u041A\u043E\u043F\u0438\u0440\u043E\u0432\u0430\u0442\u044C.cd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
+              "WhenOpened": "2024-11-20T09:37:08.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "planes.svg",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\imgs\\planes.svg",
+              "RelativeDocumentMoniker": "AviaPlace\\imgs\\planes.svg",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\imgs\\planes.svg",
+              "RelativeToolTip": "AviaPlace\\imgs\\planes.svg",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAADaAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAP8SURBVDhPrZRdbJNVGMd/p33b9Qtqt9HZbe2woKxsbGDYpk5DQAkTFcQPjJgY44XGEI3GmBBMNNmVNxoWojei8VITgyzGCwgRyRjJZM5JlvERt0C3dVu3rt3bD7r3bc/xYt0o4CX/5Mn5/uc85/zOgfsppZS4u6\u002Bnp\u002BdYc3PzB6VxlFIrcwGQUpLP58lms71Hjhw5PDExEbvT4S719PSMSillsVj83ygUCnJ4eFgODg7K48eP/xyJRDaVr7eWNwC6uroOd3R0VEsFBSOFzF1GZL7DmP0Rc/o3AP6dNNne1oHT6Qzb7fb6qampy4lEInGPob39NdHY2n74aq6i\u002BvpUP2sL3\u002BCc/ZZC7AyITUgVpBC/yMQcNDzSjs/n01wu18bKysrglStXLqTT6fSyoRC4H93nCz33zudrAqFn2iI2\u002B66aY3hnTjM8vpVf9A8ZqzjElta9yLlRMqabC0M3GBoaQtd1q8/ni5w/f/6nVCoV0wAczXu8Dfvf/\u002BTp7fXvvrxlzLVdfkriWo7\u002B7FGuh19kwnBycWyGrHmDV/xNNLZuoB4/hmHg8XgYGRlZzdIC4O96r7Mjsu6Ng00Da9tyH4vF4TxTopvcugPYsuA2C4TW13Jprkhf8iHEmhDV1VUEAgG8Xi9Wq3WVAgtAQ8Bz4IXG0aoW8ysxP2jiavmBLY8d4OC2AK\u002B3VJOZnsNnr0C4nQwmbMznLaX9KChDC0AD2Lwu9dTj3u\u002BdmXEHX5ufMfmHDbPwD1IpFJJ8UaNKs2Cz2xifWyKZNqhd60ApQNxmFECrDWj2t1pO19uiY\u002BKc5QvlbtstwsrC8mxKpgrzloFhmCwVChSUKg0r1F0PQJu8GtqfHP\u002B1YiDzthoN7in\u002BefGadWuNSygpUUohlQIUQirqkLQGPfg99pLZna8IQFN67NXZm3VL54o7MbNKczttls5wtdhW58br0NDzJgM3kkSTOVCKoM\u002BFx6GtJLB8jmXS8pP5zmS24vf\u002BGW1zSEs11ITrxJnpHGeuz6IME82uUfRUkSy6WIgv8KxFYLPc/gJWUl6RpbAonHuPLh2Kzcx/eW10PHFzOq0M9xoIrUdsfJilugbiShCPJwg7CjzfXIPdunLL98p69E38Ox5Mhi/1X\u002B1rCNjMTMps1DPSPRlfJDGf4lZiAVt6kaYHND7auYFKtx2EWEVGCEE0GuXUqVMndF2PWdfXMhCbYVfEPrujLt43Eqhvde1\u002B4slGv63IJq9Ge62bfU1\u002BXtpai8OmLW\u002BjhAuAsFiIRifo7e09oev6vV9Zd3d3n5RSmqZZCkOaxnIYq7G0WpqmKc\u002BePSuDwWAbK2CXSyn118mTJztL9WV0SgiV95Wzp\u002Bv638DCnU73Sf8B3E0j/55GTsEAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-11-14T14:22:58.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "journal.svg",
+              "DocumentMoniker": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\imgs\\journal.svg",
+              "RelativeDocumentMoniker": "AviaPlace\\imgs\\journal.svg",
+              "ToolTip": "C:\\Users\\paulscriptum\\source\\repos\\AviaPlace\\AviaPlace\\imgs\\journal.svg",
+              "RelativeToolTip": "AviaPlace\\imgs\\journal.svg",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAB4AAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAP8SURBVDhPrZRdbJNVGMd/p33b9Qtqt9HZbe2woKxsbGDYpk5DQAkTFcQPjJgY44XGEI3GmBBMNNmVNxoWojei8VITgyzGCwgRyRjJZM5JlvERt0C3dVu3rt3bD7r3bc/xYt0o4CX/5Mn5/uc85/zOgfsppZS4u6\u002Bnp\u002BdYc3PzB6VxlFIrcwGQUpLP58lms71Hjhw5PDExEbvT4S719PSMSillsVj83ygUCnJ4eFgODg7K48eP/xyJRDaVr7eWNwC6uroOd3R0VEsFBSOFzF1GZL7DmP0Rc/o3AP6dNNne1oHT6Qzb7fb6qampy4lEInGPob39NdHY2n74aq6i\u002BvpUP2sL3\u002BCc/ZZC7AyITUgVpBC/yMQcNDzSjs/n01wu18bKysrglStXLqTT6fSyoRC4H93nCz33zudrAqFn2iI2\u002B66aY3hnTjM8vpVf9A8ZqzjElta9yLlRMqabC0M3GBoaQtd1q8/ni5w/f/6nVCoV0wAczXu8Dfvf/\u002BTp7fXvvrxlzLVdfkriWo7\u002B7FGuh19kwnBycWyGrHmDV/xNNLZuoB4/hmHg8XgYGRlZzdIC4O96r7Mjsu6Ng00Da9tyH4vF4TxTopvcugPYsuA2C4TW13Jprkhf8iHEmhDV1VUEAgG8Xi9Wq3WVAgtAQ8Bz4IXG0aoW8ysxP2jiavmBLY8d4OC2AK\u002B3VJOZnsNnr0C4nQwmbMznLaX9KChDC0AD2Lwu9dTj3u\u002BdmXEHX5ufMfmHDbPwD1IpFJJ8UaNKs2Cz2xifWyKZNqhd60ApQNxmFECrDWj2t1pO19uiY\u002BKc5QvlbtstwsrC8mxKpgrzloFhmCwVChSUKg0r1F0PQJu8GtqfHP\u002B1YiDzthoN7in\u002BefGadWuNSygpUUohlQIUQirqkLQGPfg99pLZna8IQFN67NXZm3VL54o7MbNKczttls5wtdhW58br0NDzJgM3kkSTOVCKoM\u002BFx6GtJLB8jmXS8pP5zmS24vf\u002BGW1zSEs11ITrxJnpHGeuz6IME82uUfRUkSy6WIgv8KxFYLPc/gJWUl6RpbAonHuPLh2Kzcx/eW10PHFzOq0M9xoIrUdsfJilugbiShCPJwg7CjzfXIPdunLL98p69E38Ox5Mhi/1X\u002B1rCNjMTMps1DPSPRlfJDGf4lZiAVt6kaYHND7auYFKtx2EWEVGCEE0GuXUqVMndF2PWdfXMhCbYVfEPrujLt43Eqhvde1\u002B4slGv63IJq9Ge62bfU1\u002BXtpai8OmLW\u002BjhAuAsFiIRifo7e09oev6vV9Zd3d3n5RSmqZZCkOaxnIYq7G0WpqmKc\u002BePSuDwWAbK2CXSyn118mTJztL9WV0SgiV95Wzp\u002Bv638DCnU73Sf8B3E0j/55GTsEAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-11-14T14:26:15.525Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

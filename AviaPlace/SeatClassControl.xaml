@@ -1,0 +1,29 @@
+﻿<UserControl x:Class="AviaPlace.SeatClassControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:AviaPlace"
+             mc:Ignorable="d" 
+             d:DesignHeight="250" d:DesignWidth="500" Width="565" Height="100">
+    <Border BorderBrush="{StaticResource Background}" BorderThickness="1" CornerRadius="10" Padding="10" Margin="1" Background="{StaticResource Background}">
+        <Grid Background="{StaticResource Background}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <TextBlock Grid.Row="0" Grid.Column="0" x:Name="FlightTbk" Text="Рейс: SU1535" FontSize="14pt" Margin="15,20,0,0" />
+            <TextBlock Grid.Row="1" Grid.Column="0" x:Name="RowsTbk" Text="Рядов: 15" FontSize="14pt" Margin="15,20,0,0" />
+            <TextBlock Grid.Row="1" Grid.Column="1" x:Name="PlacesTbk" Text="Мест: 25" FontSize="14pt" Margin="15,20,0,0" />
+            <TextBlock Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="2" x:Name="PriceTbk" Text="Стоимость: 2599" FontSize="14pt" Margin="15,20,0,0" HorizontalAlignment="Center" />
+            <TextBlock Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2" x:Name="ClassTbk" Text="Класс: Эконом" FontSize="14pt" Margin="15,20,0,0" HorizontalAlignment="Center" />
+        </Grid>
+    </Border>
+    
+</UserControl>
