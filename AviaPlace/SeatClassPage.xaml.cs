@@ -103,7 +103,7 @@ namespace AviaPlace
                 capacity = aircraft.capacity;
                 LeftPlaces();
             }
-            
+
         }
 
         private bool ValidateFields(string action)
@@ -200,7 +200,8 @@ namespace AviaPlace
                 occupiedSeats = seatClassesForFlight.Sum(sc => sc.rows * sc.places) + left;
 
                 RowsLeftTbk.Text = $"Мест: {occupiedSeats} из {capacity}";
-            } else if (FlightCbx.SelectedValue != null)
+            }
+            else if (FlightCbx.SelectedValue != null)
             {
                 var selectedFlightId = Convert.ToInt32(FlightCbx.SelectedValue);
                 var seatClassesForFlight = sacAdapter.GetData().Where(sc => sc.id_flight == selectedFlightId).ToList();

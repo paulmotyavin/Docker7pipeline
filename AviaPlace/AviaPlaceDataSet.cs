@@ -7,9 +7,11 @@
     }
 }
 
-namespace AviaPlace.AviaPlaceDataSetTableAdapters {
-    
-    
-    public partial class FlightsTableAdapter {
+namespace AviaPlace.AviaPlaceDataSetTableAdapters
+{
+
+
+    public partial class FlightsTableAdapter
+    {
     }
 }

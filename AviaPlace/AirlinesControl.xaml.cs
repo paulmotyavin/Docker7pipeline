@@ -9,10 +9,10 @@ namespace AviaPlace
     /// </summary>
     public partial class AirlinesControl : UserControl
     {
-        public int id {  get; set; }
-        public string name {  get; set; }
-        public string country {  get; set; }
-        public string image {  get; set; }
+        public int id { get; set; }
+        public string name { get; set; }
+        public string country { get; set; }
+        public string image { get; set; }
         public AirlinesControl(AviaPlaceDataSet.AirlinesRow airline)
         {
             InitializeComponent();

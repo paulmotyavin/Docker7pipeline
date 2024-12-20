@@ -11,7 +11,7 @@ namespace AviaPlace
     public partial class UserFlightControl : UserControl
     {
         public int id { get; set; }
-        public int airlineId {  get; set; }
+        public int airlineId { get; set; }
 
         public UserFlightControl(AviaPlaceDataSet.FlightsRow flight, string DepartureAirport,
             string ArrivalAirport, string airline, string model, string airlineImg, string price)

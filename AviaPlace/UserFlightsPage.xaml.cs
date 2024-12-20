@@ -42,7 +42,7 @@ namespace AviaPlace
                 var arrivalAirport = airports.FirstOrDefault(a => a.id == flight.airport_arrival)?.code ?? "Unknown";
                 var airline = airlines.FirstOrDefault(al => al.id == flight.id_airlines)?.name ?? "Unknown";
                 var model = aircraft.FirstOrDefault(ac => ac.id == flight.id_aircraft)?.model ?? "Unknown";
-                var minPrice = (int) sacs.Where(ac => ac.id_flight == flight.id).Select(ac => ac.price).DefaultIfEmpty().Min();
+                var minPrice = (int)sacs.Where(ac => ac.id_flight == flight.id).Select(ac => ac.price).DefaultIfEmpty().Min();
                 var duration = flight.arrival_time - flight.departure_time;
                 return new { flight, departureAirport, arrivalAirport, airline, model, minPrice, duration };
             })

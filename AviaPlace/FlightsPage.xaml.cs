@@ -138,7 +138,7 @@ namespace AviaPlace
             var nowDate = new DateTime(date.Value.Year, date.Value.Month, date.Value.Day, selectedTime.Hour, selectedTime.Minute, selectedTime.Second);
             if (nowDate > DateTime.Now)
             {
-                
+
                 if (activeField == "dt") dtTbx.Text = $"{date.Value.Date.ToShortDateString()} {selectedTime.Hour:D2}:{selectedTime.Minute:D2}";
                 else dtTbx1.Text = $"{date.Value.Date.ToShortDateString()} {selectedTime.Hour:D2}:{selectedTime.Minute:D2}";
 

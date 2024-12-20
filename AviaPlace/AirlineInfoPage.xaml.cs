@@ -128,7 +128,7 @@ namespace AviaPlace
 
             if (!string.IsNullOrEmpty(reviewText) && !string.IsNullOrEmpty(rating))
             {
-                reviewsAdapter.Insert(Convert.ToInt32(Settings.Default.userId), airlineId, Convert.ToInt32(rating.Substring(0,1)), reviewText, DateTime.Now);
+                reviewsAdapter.Insert(Convert.ToInt32(Settings.Default.userId), airlineId, Convert.ToInt32(rating.Substring(0, 1)), reviewText, DateTime.Now);
                 ReviewTextBox.Clear();
                 RatingComboBox.SelectedIndex = -1;
             }

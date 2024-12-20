@@ -10,9 +10,9 @@ namespace AviaPlace
     /// </summary>
     public partial class FlightControl : UserControl
     {
-        public int id {  get; set; }
-        public DateTime departureTime {  get; set; }
-        public DateTime arrivalTime {  get; set; }
+        public int id { get; set; }
+        public DateTime departureTime { get; set; }
+        public DateTime arrivalTime { get; set; }
         public string departureAirport { get; set; }
         public string arrivalAirport { get; set; }
         public string duration { get; set; }

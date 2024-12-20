@@ -64,7 +64,7 @@ namespace AviaPlace
             if (UsersList.SelectedItem != null && ValidateFields((int)UsersList.SelectedValue))
             {
                 int selectedId = Convert.ToInt32(UsersList.SelectedValue);
-                var avatar = usersAdapter.GetData().FirstOrDefault(x => x.id ==  selectedId).avatar;
+                var avatar = usersAdapter.GetData().FirstOrDefault(x => x.id == selectedId).avatar;
                 if (passwordTbx.Text.Length == 64) usersAdapter.UpdateQuery(SurnameTbx.Text, NameTbx.Text, emailTbx.Text, passwordTbx.Text, roleCbx.Text, avatar, selectedId);
                 else usersAdapter.UpdateQuery(SurnameTbx.Text, NameTbx.Text, emailTbx.Text, App.sha256(passwordTbx.Text), roleCbx.Text, avatar, selectedId);
                 App.WriteLog($"Изменен пользователь с идентификатором {selectedId}");

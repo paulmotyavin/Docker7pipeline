@@ -26,7 +26,7 @@ namespace AviaPlace
         public List<string> seatInfoPanel { get; set; }
 
 
-        public TicketControl(AviaPlaceDataSet.FlightsRow flight, string departureAirport, string arrivalAirport, string airline, string model, string airlineImg, List<string>seats)
+        public TicketControl(AviaPlaceDataSet.FlightsRow flight, string departureAirport, string arrivalAirport, string airline, string model, string airlineImg, List<string> seats)
         {
             InitializeComponent();
             id = flight.id;

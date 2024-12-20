@@ -124,7 +124,7 @@ namespace AviaPlace
             foreach (var (row, seatNum) in SelectedSeats)
             {
                 flightsAndSeatsAdapter.InsertQuery(sacId, priceClass * SelectedSeats.Count, row, seatNum);
-                App.WriteLog($"Совершена покупа на сумму {priceClass * SelectedSeats.Count}, {row} ряд и {seatNum} место" );
+                App.WriteLog($"Совершена покупа на сумму {priceClass * SelectedSeats.Count}, {row} ряд и {seatNum} место");
                 var seatId = (int)flightsAndSeatsAdapter.ScalarQuery();
 
                 ticketsAdapter.InsertQuery(reservationId, seatId);

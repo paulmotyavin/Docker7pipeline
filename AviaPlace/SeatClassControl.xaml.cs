@@ -7,12 +7,12 @@ namespace AviaPlace
     /// </summary>
     public partial class SeatClassControl : UserControl
     {
-        public int id {  get; set; }
-        public string Flight {  get; set; }
-        public int Rows {  get; set; }
-        public int Places {  get; set; }
-        public int Price {  get; set; }
-        public string Class {  get; set; }
+        public int id { get; set; }
+        public string Flight { get; set; }
+        public int Rows { get; set; }
+        public int Places { get; set; }
+        public int Price { get; set; }
+        public string Class { get; set; }
         public SeatClassControl(AviaPlaceDataSet.SeatsAndClassesRow sac, string Flight, string Class)
         {
             InitializeComponent();

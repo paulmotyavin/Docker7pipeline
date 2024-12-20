@@ -28,7 +28,7 @@ namespace AviaPlace
 
         private void regBtn_Click(object sender, RoutedEventArgs e)
         {
-            if (surnameTbx.Text.Length > 0 && nameTbx.Text.Length > 0 && emailTbx.Text.Length > 0 && 
+            if (surnameTbx.Text.Length > 0 && nameTbx.Text.Length > 0 && emailTbx.Text.Length > 0 &&
                 passwordTbx.Password.Length > 0 && againPasswordTbx.Password.Length > 0)
             {
                 int validation = 0;

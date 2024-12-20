@@ -56,7 +56,7 @@ namespace AviaPlace
                     case "ReviewsItem":
                         PageFrame.Content = new ReviewsPage();
                         break;
-                    
+
                     default:
                         PageFrame.Content = new ProfilePage(this);
                         break;
